@@ -4,8 +4,8 @@ import com.company.Day;
 
 public class Day2 extends Day {
 
-    public Day2(String path) {
-        super(path, 2);
+    public Day2(int day) {
+        super(day);
     }
 
     public int task1(){

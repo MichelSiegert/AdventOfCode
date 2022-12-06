@@ -6,8 +6,8 @@ import java.util.Arrays;
 
 public class Day1 extends Day {
 
-    public Day1(String path) {
-        super(path, 1);
+    public Day1(int day) {
+        super(day);
     }
 
     public int task1() {

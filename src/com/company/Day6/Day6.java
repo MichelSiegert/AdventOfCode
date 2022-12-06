@@ -5,8 +5,8 @@ import com.company.Day;
 import java.util.Arrays;
 
 public class Day6 extends Day {
-    public Day6(String path){
-        super(path, 6);
+    public Day6(int day) {
+        super(day);
     }
     @Override
     protected int task1() {

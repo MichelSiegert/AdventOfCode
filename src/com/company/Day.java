@@ -14,6 +14,13 @@ abstract public class Day {
         System.out.println("Das Ergebnis von Task 2 Day "+ day +" ist "+task2()+"\n");
     }
 
+    public Day(int day) {
+        String path = "C:\\Users\\shani\\IdeaProjects\\AOC\\src\\com\\company\\Day"+day+"\\input.txt";
+        data = readFile(path);
+        System.out.println("Das Ergebnis von Task 1 Day "+ day +" ist "+task1());
+        System.out.println("Das Ergebnis von Task 2 Day "+ day +" ist "+task2()+"\n");
+    }
+
     //Reads files.
     private ArrayList<String> readFile(String filePath){
         BufferedReader reader;

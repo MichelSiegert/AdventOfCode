@@ -4,8 +4,8 @@ import com.company.Day;
 
 public class Day4 extends Day {
 
-    public Day4(String path){
-        super(path,4);
+    public Day4(int day) {
+        super(day);
     }
 
     @Override
